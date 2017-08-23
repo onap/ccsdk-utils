@@ -1,0 +1,205 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_707c3c73",
+        "filename": "platform_base_installation/centos_vm.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2017-08-23T17:03:19Z",
+      "side": 1,
+      "message": "extraneous spaces should be removed.",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 1
+      },
+      "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_3096b495",
+        "filename": "platform_base_installation/centos_vm.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2017-08-23T17:03:19Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 115,
+        "startChar": 0,
+        "endLine": 115,
+        "endChar": 6
+      },
+      "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_1093b0a4",
+        "filename": "platform_base_installation/centos_vm.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2017-08-23T17:03:19Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 144,
+        "startChar": 34,
+        "endLine": 144,
+        "endChar": 37
+      },
+      "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_f08f0c74",
+        "filename": "platform_base_installation/centos_vm.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2017-08-23T17:03:19Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 187,
+        "startChar": 31,
+        "endLine": 187,
+        "endChar": 45
+      },
+      "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_d08c0882",
+        "filename": "platform_base_installation/centos_vm.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 221,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2017-08-23T17:03:19Z",
+      "side": 1,
+      "message": "ditto. also seems like extraneous line here.",
+      "range": {
+        "startLine": 221,
+        "startChar": 0,
+        "endLine": 221,
+        "endChar": 18
+      },
+      "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_90ee8021",
+        "filename": "platform_base_installation/consul.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2017-08-23T17:03:19Z",
+      "side": 1,
+      "message": "extraneous spaces",
+      "range": {
+        "startLine": 12,
+        "startChar": 47,
+        "endLine": 12,
+        "endChar": 50
+      },
+      "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_30dd9471",
+        "filename": "platform_base_installation/consul_cluster.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2017-08-23T17:03:19Z",
+      "side": 1,
+      "message": "Filled with extraneous spaces. See red marks below.",
+      "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_70f31c0b",
+        "filename": "platform_base_installation/consul_cluster.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2017-08-23T17:03:19Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 1
+      },
+      "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_50f818e5",
+        "filename": "platform_base_installation/consul_cluster.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2017-08-23T17:03:19Z",
+      "side": 1,
+      "message": "Is this purposeful extra line and spaces?",
+      "range": {
+        "startLine": 193,
+        "startChar": 0,
+        "endLine": 193,
+        "endChar": 18
+      },
+      "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
