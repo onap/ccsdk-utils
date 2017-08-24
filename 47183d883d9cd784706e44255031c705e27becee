@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_c052f512",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2017-08-24T21:14:15Z",
+      "side": 1,
+      "message": "Commit messages should only talk about the final change committed, its description and relation to code it changes/interacts with. Messages should not discuss the gerrit process. Consider, this will be a permanent part to the git repository after merge. \n\nPer TSC Approved commit message rules: \"Don\u0027t include patch set-specific comments like \"Patch set 2: rebased\"\n\nAs asked in previous comment, please see https://wiki.onap.org/display/DW/Commit+Messages#CommitMessages-Don\u0027t",
+      "range": {
+        "startLine": 7,
+        "startChar": 22,
+        "endLine": 7,
+        "endChar": 44
+      },
+      "revId": "47183d883d9cd784706e44255031c705e27becee",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
