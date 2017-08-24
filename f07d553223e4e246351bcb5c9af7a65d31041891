@@ -200,6 +200,57 @@
       "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_16acc8ec",
+        "filename": "platform_base_installation/install.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 515
+      },
+      "writtenOn": "2017-08-24T01:29:27Z",
+      "side": 1,
+      "message": "This needs to be fixed.. [scan should have flagged this]",
+      "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_96879861",
+        "filename": "platform_base_installation/installer",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 515
+      },
+      "writtenOn": "2017-08-24T01:29:27Z",
+      "side": 1,
+      "message": "our liscenses in our other repos have \"org.onap.dcae\". Not sure if that is a big deal.",
+      "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_767c3473",
+        "filename": "platform_base_installation/installer",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 515
+      },
+      "writtenOn": "2017-08-24T01:29:27Z",
+      "side": 1,
+      "message": "also the liscenses in our other repos say \" ECOMP is a trademark and service mark of AT\u0026T Intellectual Property\" here and the text is different than this. Not sure whether this should all be in sync.",
+      "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
