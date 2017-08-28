@@ -117,6 +117,30 @@
     },
     {
       "key": {
+        "uuid": "9a437d4f_0f06e620",
+        "filename": "platform_base_installation/centos_vm.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 221,
+      "author": {
+        "id": 511
+      },
+      "writtenOn": "2017-08-28T22:06:14Z",
+      "side": 1,
+      "message": "The line and the leading spaces are significant here.  This is a multiline YAML string.\n\nThis construction occurs in both blueprints.",
+      "parentUuid": "9a437d4f_d08c0882",
+      "range": {
+        "startLine": 221,
+        "startChar": 0,
+        "endLine": 221,
+        "endChar": 18
+      },
+      "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a437d4f_90ee8021",
         "filename": "platform_base_installation/consul.md",
         "patchSetId": 1
@@ -203,6 +227,30 @@
     },
     {
       "key": {
+        "uuid": "9a437d4f_eb04b516",
+        "filename": "platform_base_installation/consul_cluster.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 511
+      },
+      "writtenOn": "2017-08-28T22:06:14Z",
+      "side": 1,
+      "message": "Yes.  This is a multiline YAML string that begins with a blank line.",
+      "parentUuid": "9a437d4f_50f818e5",
+      "range": {
+        "startLine": 193,
+        "startChar": 0,
+        "endLine": 193,
+        "endChar": 18
+      },
+      "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a437d4f_16acc8ec",
         "filename": "platform_base_installation/install.md",
         "patchSetId": 1
@@ -231,6 +279,24 @@
       "writtenOn": "2017-08-24T01:29:27Z",
       "side": 1,
       "message": "our liscenses in our other repos have \"org.onap.dcae\". Not sure if that is a big deal.",
+      "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_d6ed20f1",
+        "filename": "platform_base_installation/installer",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 511
+      },
+      "writtenOn": "2017-08-28T22:06:14Z",
+      "side": 1,
+      "message": "This is the CCSDK project, not the DCAE project.  org.onap.ccsdk is correct here.",
+      "parentUuid": "9a437d4f_96879861",
       "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
