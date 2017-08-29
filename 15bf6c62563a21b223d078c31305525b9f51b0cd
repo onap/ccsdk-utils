@@ -1,0 +1,9 @@
+Verified+1: ONAP Jobbuilder <onap-jobbuilder@jenkins.onap.org>
+Code-Review+1: Tony Hansen <tony@att.com>
+Code-Review+1: Marcus Williams <marcus.williams@intel.com>
+Code-Review+2: Dan Timoney <dtimoney@att.com>
+Submitted-by: Dan Timoney <dtimoney@att.com>
+Submitted-at: Tue, 29 Aug 2017 19:43:22 +0000
+Reviewed-on: http://gerrit.onap.org/r/8447
+Project: ccsdk/utils
+Branch: refs/heads/master
