@@ -141,6 +141,30 @@
     },
     {
       "key": {
+        "uuid": "9a437d4f_940c2644",
+        "filename": "platform_base_installation/centos_vm.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 221,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2017-08-29T19:36:15Z",
+      "side": 1,
+      "message": "Original point about line being extraneous here is retracted, as it appears what is required here is a new line character \"/n\". That is how yaml validators are rendering this line. However they render this \"/n\" without trailing spaces.",
+      "parentUuid": "9a437d4f_0f06e620",
+      "range": {
+        "startLine": 221,
+        "startChar": 0,
+        "endLine": 221,
+        "endChar": 18
+      },
+      "revId": "f07d553223e4e246351bcb5c9af7a65d31041891",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a437d4f_90ee8021",
         "filename": "platform_base_installation/consul.md",
         "patchSetId": 1
