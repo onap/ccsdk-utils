@@ -16,7 +16,7 @@
 # limitations under the License.
 # ============LICENSE_END============================================
 #
-# ECOMP and OpenECOMP are trademarks 
+# ECOMP and OpenECOMP are trademarks
 # and service marks of AT&T Intellectual Property.
 #
 
@@ -27,7 +27,7 @@ imports:
   - http://www.getcloudify.org/spec/openstack-plugin/1.4/plugin.yaml
   - "{{ ONAPTEMPLATE_RAWREPOURL_org_onap_ccsdk }}/type_files/dnsdesig/dns_types.yaml"
   - "{{ ONAPTEMPLATE_RAWREPOURL_org_onap_ccsdk }}/type_files/sshkeyshare/sshkey_types.yaml"
- 
+
 inputs:
   centos7image_id:
     type: string
@@ -190,20 +190,20 @@ node_templates:
                   - { get_input: vm_init_cnsl_00 }
                   - { get_input: datacenter }
                   - |+
-                  
-                  - { get_input: vm_init_cnsl_01 } 
-                  - concat: 
+
+                  - { get_input: vm_init_cnsl_01 }
+                  - concat:
                       - 'until /opt/consul/bin/consul join '
                       - { get_attribute: [host_cnsl01, ip] }
                       - ' '
                       - { get_attribute: [host_cnsl02, ip]}
                       - '; do sleep 15; done'
-    
+
     relationships:
       - type: cloudify.openstack.server_connected_to_port
         target: fixedip_cnsl00
       - type: cloudify.openstack.server_connected_to_security_group
-        target: security_group        
+        target: security_group
       - type: cloudify.openstack.server_connected_to_floating_ip
         target: floatingip_cnsl00
       - type: cloudify.openstack.server_connected_to_keypair
@@ -220,7 +220,7 @@ node_templates:
       port:
         extra_dhcp_opts:
           - opt_name: 'domain-name'
-            opt_value: { get_input: location_domain }    
+            opt_value: { get_input: location_domain }
       openstack_config: *open_conf
     relationships:
       - type: cloudify.relationships.contained_in
@@ -269,8 +269,8 @@ node_templates:
                   - { get_input: vm_init_cnsl_00 }
                   - { get_input: datacenter }
                   - |+
-                  
-                  - { get_input: vm_init_cnsl_01 } 
+
+                  - { get_input: vm_init_cnsl_01 }
     relationships:
       - type: cloudify.openstack.server_connected_to_port
         target: fixedip_cnsl01
@@ -288,7 +288,7 @@ node_templates:
       port:
         extra_dhcp_opts:
           - opt_name: 'domain-name'
-            opt_value: { get_input: location_domain }    
+            opt_value: { get_input: location_domain }
       openstack_config: *open_conf
     relationships:
       - type: cloudify.relationships.contained_in
@@ -331,7 +331,8 @@ node_templates:
               ip_addresses:
                 - { get_attribute: [ floatingip_cnsl00, floating_ip_address ] }
                 - { get_attribute: [ floatingip_cnsl01, floating_ip_address ] }
-                - { get_attribute: [ floatingip_cnsl02, floating_ip_address ] }              
+                - { get_attribute: [ floatingip_cnsl02, floating_ip_address ] }
+
     relationships:
       - type: cloudify.relationships.depends_on
         target: floatingip_cnsl00
@@ -353,18 +354,18 @@ node_templates:
           inputs:
             args:
               name: { concat: [ { get_input: location_prefix }, 'cnsl02' ] }
-              userdata:                
+              userdata:
                 concat:
                   - { get_input: vm_init_cnsl_00 }
                   - { get_input: datacenter }
                   - |+
-                  
-                  - { get_input: vm_init_cnsl_01 } 
+
+                  - { get_input: vm_init_cnsl_01 }
     relationships:
       - type: cloudify.openstack.server_connected_to_port
         target: fixedip_cnsl02
       - type: cloudify.openstack.server_connected_to_security_group
-        target: security_group   
+        target: security_group
       - type: cloudify.openstack.server_connected_to_floating_ip
         target: floatingip_cnsl02
       - type: cloudify.openstack.server_connected_to_keypair

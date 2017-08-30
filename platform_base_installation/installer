@@ -17,7 +17,7 @@
 # limitations under the License.
 # ============LICENSE_END============================================
 #
-# ECOMP and OpenECOMP are trademarks 
+# ECOMP and OpenECOMP are trademarks
 # and service marks of AT&T Intellectual Property.
 #
 
@@ -134,7 +134,7 @@ then
 fi
 
 
-# Copy private key onto Cloudify Manager VM 
+# Copy private key onto Cloudify Manager VM
 PVTKEYPATH=$(cat ${INPUTS} | grep "key_filename" | cut -d "'" -f2)
 PVTKEYNAME=$(basename $PVTKEYPATH)
 PVTKEYDIR=$(dirname $PVTKEYPATH)
@@ -196,7 +196,7 @@ rm -rf $TMPBASE
 scp $SSHOPTS -i $PVTKEY2 $SRCS $SSHUSER@$PUBIP:/tmp/.
 ssh -t $SSHOPTS -i $PVTKEY2 $SSHUSER@$PUBIP 'sudo bash -xc "cd /opt; tar xf /tmp/srcs.tar; chown -R root:root /opt/cloudify /opt/manager; rm -rf /tmp/srcs.tar"'
 #
-#	Install config file -- was done by DCAE controller.  What now?  
+#	Install config file -- was done by DCAE controller.  What now?
 #
 ssh $SSHOPTS -t -i $PVTKEY2 $SSHUSER@$PUBIP 'sudo bash -xc '"'"'mkdir -p /opt/dcae; if [ -f /tmp/cfy-config.txt ]; then cp /tmp/cfy-config.txt /opt/dcae/config.txt && chmod 644 /opt/dcae/config.txt; fi'"'"
 cd $WORKDIR

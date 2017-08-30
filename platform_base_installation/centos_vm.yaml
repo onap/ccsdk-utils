@@ -16,7 +16,7 @@
 # limitations under the License.
 # ============LICENSE_END============================================
 #
-# ECOMP and OpenECOMP are trademarks 
+# ECOMP and OpenECOMP are trademarks
 # and service marks of AT&T Intellectual Property.
 #
 
@@ -28,7 +28,7 @@ imports:
   - http://www.getcloudify.org/spec/fabric-plugin/1.4.1/plugin.yaml
   - types/dns_types.yaml
   - types/sshkey_types.yaml
- 
+
 inputs:
   centos7image_id:
     type: string
@@ -112,7 +112,7 @@ inputs:
       systemctl enable consul
       systemctl start consul
       yum install -y python-psycopg2
-      
+
 node_templates:
   key_pair:
     type: cloudify.openstack.nodes.KeyPair
@@ -141,7 +141,7 @@ node_templates:
         extra_dhcp_opts:
           - opt_name: 'domain-name'
             opt_value: { get_input: location_domain }
-      openstack_config: *open_conf   
+      openstack_config: *open_conf
     relationships:
       - type: cloudify.relationships.contained_in
         target: private_net
@@ -184,7 +184,7 @@ node_templates:
                 - { get_attribute: [ floatingip_vm00, floating_ip_address ] }
     relationships:
       - type: cloudify.relationships.depends_on
-        target: floatingip_vm00              
+        target: floatingip_vm00
   dns_cname:
     type: ccsdk.nodes.dns.cnamerecord
     properties:
@@ -218,7 +218,7 @@ node_templates:
                   - { get_input: vm_init_clmg_00 }
                   - { get_input: datacenter }
                   - |+
-                  
+
                   - { get_input: vm_init_clmg_01 }
     relationships:
       - type: cloudify.openstack.server_connected_to_port
