@@ -8,7 +8,7 @@
     <artifactId>utils</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
-    <name>Utilities</name>
+    <name>ccsdk-utils</name>
     <description>CCSDK Utilities</description>
 
 </project>
