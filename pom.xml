@@ -11,4 +11,10 @@
     <name>ccsdk-utils</name>
     <description>CCSDK Utilities</description>
 
+    <!-- Add oparent parent -->
+    <parent>
+        <groupId>org.onap.oparent</groupId>
+        <artifactId>oparent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
 </project>
