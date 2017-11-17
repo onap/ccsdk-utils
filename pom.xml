@@ -6,7 +6,7 @@
     <packaging>pom</packaging>
     <groupId>org.onap.ccsdk.utils</groupId>
     <artifactId>utils</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.1.1-SNAPSHOT</version>
 
     <name>ccsdk-utils</name>
     <description>CCSDK Utilities</description>
