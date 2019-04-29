@@ -5,7 +5,7 @@
     <packaging>pom</packaging>
     <groupId>org.onap.ccsdk.utils</groupId>
     <artifactId>utils</artifactId>
-    <version>1.1.1-SNAPSHOT</version>
+    <version>1.2.0-SNAPSHOT</version>
 
     <name>ccsdk-utils</name>
     <description>CCSDK Utilities</description>
@@ -14,6 +14,6 @@
     <parent>
         <groupId>org.onap.oparent</groupId>
         <artifactId>oparent</artifactId>
-        <version>1.2.0</version>
+        <version>1.2.3</version>
     </parent>
 </project>
